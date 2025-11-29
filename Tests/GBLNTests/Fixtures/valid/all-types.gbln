@@ -1,0 +1,36 @@
+:| Test file with all GBLN types
+alltypes{
+    :| Signed integers
+    i8_val<i8>(-128)
+    i16_val<i16>(-32768)
+    i32_val<i32>(-2147483648)
+    i64_val<i64>(-9223372036854775808)
+
+    :| Unsigned integers
+    u8_val<u8>(255)
+    u16_val<u16>(65535)
+    u32_val<u32>(4294967295)
+    u64_val<u64>(18446744073709551615)
+
+    :| Floats
+    f32_val<f32>(3.14159)
+    f64_val<f64>(2.718281828459045)
+
+    :| String
+    str_val<s64>(Hello, GBLN!)
+
+    :| Boolean
+    bool_true<b>(t)
+    bool_false<b>(f)
+
+    :| Null
+    null_val<n>()
+
+    :| Array
+    tags<s16>[rust python swift]
+
+    :| Nested object
+    nested{
+        key<s32>(value)
+    }
+}

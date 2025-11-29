@@ -1,0 +1,2 @@
+:| Invalid - integer out of range for i8
+age<i8>(999)

@@ -1,0 +1,5 @@
+:| Invalid syntax - missing closing brace
+user{
+    id<u32>(123)
+    name<s64>(Alice)
+:| Missing }

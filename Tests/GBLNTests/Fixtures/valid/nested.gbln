@@ -1,0 +1,12 @@
+:| Nested object structure
+response{
+    status<u16>(200)
+    message<s64>(Success)
+    data{
+        user{
+            id<u32>(12345)
+            name<s64>(Alice Johnson)
+            role<s16>(admin)
+        }
+    }
+}

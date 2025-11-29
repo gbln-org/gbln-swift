@@ -1,0 +1,48 @@
+# Copyright (c) 2025 Vivian Burkhard Voss
+# SPDX-License-Identifier: Apache-2.0
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Xcode
+xcuserdata/
+*.xcodeproj
+*.xcworkspace
+DerivedData/
+.DS_Store
+
+# Build outputs
+*.dylib
+*.so
+*.dll
+*.a
+*.lib
+*.framework
+*.xcframework
+
+# Dependencies
+vendor/
+Carthage/
+Pods/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+._*
+
+# Logs
+*.log
+
+# Test artifacts
+.test/
+*.profraw
+*.profdata
+coverage/
